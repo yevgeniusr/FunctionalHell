@@ -4,7 +4,7 @@ services:
   functional-hell:
     build: .
     ports:
-      - "3000:80"
+      - "3013:80"
     restart: unless-stopped
     environment:
       - NODE_ENV=production
